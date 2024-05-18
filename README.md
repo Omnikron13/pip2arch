@@ -3,6 +3,13 @@ Pip2Arch
 
 Pip2Arch converts entries in the pypi database to Arch Linux PKGBUILDS, allowing the user to harness both the power of pacman, the arch linux package manager, and the sheer amount of python modules in pypi.
 
+FORK NOTE
+---------
+Upstream seems unmaintained, and is non functional. This fork applies the patch from here: https://github.com/lclarkmichalek/pip2arch/issues/22#issuecomment-1670570392
+
+I haven't looked into it too deeply, and this is likely not the ideal fix/update to this utility. Ideally somebody with more time and Python expertise should look into this and update this properly.
+
+
 Usage
 -----
 
